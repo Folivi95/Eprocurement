@@ -1,0 +1,78 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{AE6F3948-5E7D-442C-8752-0EFD0D5F9CBF}"
+	ProjectSection(SolutionItems) = preProject
+		EDMS.Application\Helpers\ModelStateExtension.cs = EDMS.Application\Helpers\ModelStateExtension.cs
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eprocurement-tool.Application", "eprocurement-tool.Application\eprocurement-tool.Application.csproj", "{96FE2F45-45B6-4624-8210-0FDB5EF19797}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{16DB8882-BF5C-4F02-A49A-726785FD3C6D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eprocurement-tool.Domain", "eprocurement-tool.Domain\eprocurement-tool.Domain.csproj", "{77607A48-4177-444F-8088-9CE12C76DAB9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure.IoC", "Infrastructure.IoC", "{F764B564-C102-48DC-95D0-E84C6207ECE2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eprocurement-tool.Infrastructure.IoC", "eprocurement-tool.Infrastructure.IoC\eprocurement-tool.Infrastructure.IoC.csproj", "{54D15448-F386-4F9B-95BE-EC5FA5C9D9A6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure.Data", "Infrastructure.Data", "{F5E3A9A0-2979-4D20-B4E2-7380537A164B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eprocurement-tool.Infrastructure.Data", "eprocurement-tool.Infrastructure.Data\eprocurement-tool.Infrastructure.Data.csproj", "{D6C6613A-D452-4DA9-B2B4-45DE85A1808C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{EE4AB17A-298E-4189-B3FE-CCCAA50D018F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eprocurement-tool.WebAPI", "eprocurement-tool.WebAPI\eprocurement-tool.WebAPI.csproj", "{1C90CDAB-4EB2-44B8-B44B-7BC0FB3B9A8A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{3C021433-32FC-4BDB-A6AE-9A5AD620B5D7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eprocurement-tool.Application.UniTest", "eprocurement-tool.Application.UniTest\eprocurement-tool.Application.UniTest.csproj", "{E9BB5C72-CC94-4729-8EE7-D80C76464A9C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96FE2F45-45B6-4624-8210-0FDB5EF19797}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96FE2F45-45B6-4624-8210-0FDB5EF19797}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96FE2F45-45B6-4624-8210-0FDB5EF19797}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96FE2F45-45B6-4624-8210-0FDB5EF19797}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77607A48-4177-444F-8088-9CE12C76DAB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77607A48-4177-444F-8088-9CE12C76DAB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77607A48-4177-444F-8088-9CE12C76DAB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77607A48-4177-444F-8088-9CE12C76DAB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54D15448-F386-4F9B-95BE-EC5FA5C9D9A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54D15448-F386-4F9B-95BE-EC5FA5C9D9A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54D15448-F386-4F9B-95BE-EC5FA5C9D9A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54D15448-F386-4F9B-95BE-EC5FA5C9D9A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6C6613A-D452-4DA9-B2B4-45DE85A1808C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6C6613A-D452-4DA9-B2B4-45DE85A1808C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6C6613A-D452-4DA9-B2B4-45DE85A1808C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6C6613A-D452-4DA9-B2B4-45DE85A1808C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C90CDAB-4EB2-44B8-B44B-7BC0FB3B9A8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C90CDAB-4EB2-44B8-B44B-7BC0FB3B9A8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C90CDAB-4EB2-44B8-B44B-7BC0FB3B9A8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C90CDAB-4EB2-44B8-B44B-7BC0FB3B9A8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9BB5C72-CC94-4729-8EE7-D80C76464A9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9BB5C72-CC94-4729-8EE7-D80C76464A9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9BB5C72-CC94-4729-8EE7-D80C76464A9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9BB5C72-CC94-4729-8EE7-D80C76464A9C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{96FE2F45-45B6-4624-8210-0FDB5EF19797} = {AE6F3948-5E7D-442C-8752-0EFD0D5F9CBF}
+		{77607A48-4177-444F-8088-9CE12C76DAB9} = {16DB8882-BF5C-4F02-A49A-726785FD3C6D}
+		{54D15448-F386-4F9B-95BE-EC5FA5C9D9A6} = {F764B564-C102-48DC-95D0-E84C6207ECE2}
+		{D6C6613A-D452-4DA9-B2B4-45DE85A1808C} = {F5E3A9A0-2979-4D20-B4E2-7380537A164B}
+		{1C90CDAB-4EB2-44B8-B44B-7BC0FB3B9A8A} = {EE4AB17A-298E-4189-B3FE-CCCAA50D018F}
+		{E9BB5C72-CC94-4729-8EE7-D80C76464A9C} = {3C021433-32FC-4BDB-A6AE-9A5AD620B5D7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {50DA73BE-DA97-4472-81FB-679491F217FA}
+	EndGlobalSection
+EndGlobal

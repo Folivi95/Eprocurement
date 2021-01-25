@@ -1,0 +1,103 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>EGPS.Infrastructure.Data</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20200518104153_StageModelUpdate.cs" />
+    <Compile Remove="Migrations\20200518104153_StageModelUpdate.Designer.cs" />
+    <Compile Remove="Migrations\20200518104221_StageModelUpdate.cs" />
+    <Compile Remove="Migrations\20200518104221_StageModelUpdate.Designer.cs" />
+    <Compile Remove="Migrations\20200518105819_StageModelUpdate.cs" />
+    <Compile Remove="Migrations\20200518105819_StageModelUpdate.Designer.cs" />
+    <Compile Remove="Migrations\20200518110859_StageModel.cs" />
+    <Compile Remove="Migrations\20200518110859_StageModel.Designer.cs" />
+    <Compile Remove="Migrations\20200518111138_StageModel.cs" />
+    <Compile Remove="Migrations\20200518111138_StageModel.Designer.cs" />
+    <Compile Remove="Migrations\20200518151032_StageModelModify.cs" />
+    <Compile Remove="Migrations\20200518151032_StageModelModify.Designer.cs" />
+    <Compile Remove="Migrations\20200605164118_AddRoleResourceNavigationModelToResource2.cs" />
+    <Compile Remove="Migrations\20200605164118_AddRoleResourceNavigationModelToResource2.Designer.cs" />
+    <Compile Remove="Migrations\20200608142717_UpdatedRoleModel.cs" />
+    <Compile Remove="Migrations\20200608142717_UpdatedRoleModel.Designer.cs" />
+    <Compile Remove="Migrations\20200608192809_UpdatedRoleModel.cs" />
+    <Compile Remove="Migrations\20200608192809_UpdatedRoleModel.Designer.cs" />
+    <Compile Remove="Migrations\20200622105435_AddUserRoles.cs" />
+    <Compile Remove="Migrations\20200622105435_AddUserRoles.Designer.cs" />
+    <Compile Remove="Migrations\20200622110934_AddUserNavigationToUserActiviy.cs" />
+    <Compile Remove="Migrations\20200622110934_AddUserNavigationToUserActiviy.Designer.cs" />
+    <Compile Remove="Migrations\20200622111604_AddUserNavigationToUserActiviy.cs" />
+    <Compile Remove="Migrations\20200622111604_AddUserNavigationToUserActiviy.Designer.cs" />
+    <Compile Remove="Migrations\20200708171641_Update UserType Enum.cs" />
+    <Compile Remove="Migrations\20200708171641_Update UserType Enum.Designer.cs" />
+    <Compile Remove="Migrations\20200713182600_TestBusinessServiceFix2.cs" />
+    <Compile Remove="Migrations\20200713182600_TestBusinessServiceFix2.Designer.cs" />
+    <Compile Remove="Migrations\20200713182657_TestBusinessServiceFix3.cs" />
+    <Compile Remove="Migrations\20200713182657_TestBusinessServiceFix3.Designer.cs" />
+    <Compile Remove="Migrations\20200713192212_RemoveVendorService.cs" />
+    <Compile Remove="Migrations\20200713192212_RemoveVendorService.Designer.cs" />
+    <Compile Remove="Migrations\20200717181340_UpdatedVendorDirector.cs" />
+    <Compile Remove="Migrations\20200717181340_UpdatedVendorDirector.Designer.cs" />
+    <Compile Remove="Migrations\20200720220941_BusinessCategoryIDUpdate.cs" />
+    <Compile Remove="Migrations\20200720220941_BusinessCategoryIDUpdate.Designer.cs" />
+    <Compile Remove="Migrations\20200720135942_updateBusinessCategory.cs" />
+    <Compile Remove="Migrations\20200720135942_updateBusinessCategory.Designer.cs" />
+    <Compile Remove="Migrations\20200721215230_UpdateRegistrationPlan.cs" />
+    <Compile Remove="Migrations\20200721215230_UpdateRegistrationPlan.Designer.cs" />
+    <Compile Remove="Migrations\20200721221113_UpdateRegistrationPlan.cs" />
+    <Compile Remove="Migrations\20200721221113_UpdateRegistrationPlan.Designer.cs" />
+    <Compile Remove="Migrations\20200731122452_ProcurementDocumentType.cs" />
+    <Compile Remove="Migrations\20200731122452_ProcurementDocumentType.Designer.cs" />
+    <Compile Remove="Migrations\20200803211455_AddedMinistryCodes.cs" />
+    <Compile Remove="Migrations\20200803211455_AddedMinistryCodes.Designer.cs" />
+    <Compile Remove="Migrations\20200805094304_UpdatedUserEntity.cs" />
+    <Compile Remove="Migrations\20200805094304_UpdatedUserEntity.Designer.cs" />
+    <Compile Remove="Migrations\20200806143117_addProcurementPlanDocumentTable.cs" />
+    <Compile Remove="Migrations\20200806143117_addProcurementPlanDocumentTable.Designer.cs" />
+    <Compile Remove="Migrations\20200807162831_GetVendorProfileForUser.cs" />
+    <Compile Remove="Migrations\20200807162831_GetVendorProfileForUser.Designer.cs" />
+    <Compile Remove="Migrations\20200810141400_UpdateUserInvitationsTable.cs" />
+    <Compile Remove="Migrations\20200810141400_UpdateUserInvitationsTable.Designer.cs" />
+    <Compile Remove="Migrations\20200811113706_updateDatasheet.cs" />
+    <Compile Remove="Migrations\20200811113706_updateDatasheet.Designer.cs" />
+    <Compile Remove="Migrations\20200813131306_updateNoticeInformation.cs" />
+    <Compile Remove="Migrations\20200813131306_updateNoticeInformation.Designer.cs" />
+    <Compile Remove="Migrations\20200817101920_addProcurementPlanActivityIdToContractTable.cs" />
+    <Compile Remove="Migrations\20200817101920_addProcurementPlanActivityIdToContractTable.Designer.cs" />
+    <Compile Remove="Migrations\20200819112126_UpdateNotification.cs" />
+    <Compile Remove="Migrations\20200819112126_UpdateNotification.Designer.cs" />
+    <Compile Remove="Migrations\20200819131749_RemoveDeleteFromProjectMilestone.cs" />
+    <Compile Remove="Migrations\20200819131749_RemoveDeleteFromProjectMilestone.Designer.cs" />
+    <Compile Remove="Migrations\20200820132628_UpdatedEstimatedValueInMilestoneTask.cs" />
+    <Compile Remove="Migrations\20200820132628_UpdatedEstimatedValueInMilestoneTask.Designer.cs" />
+    <Compile Remove="Migrations\20200820133600_UpdatedEstimatedValueSpending.cs" />
+    <Compile Remove="Migrations\20200820133600_UpdatedEstimatedValueSpending.Designer.cs" />
+    <Compile Remove="Migrations\20200820133802_UpdatedEstimatedValueSpending.cs" />
+    <Compile Remove="Migrations\20200820133802_UpdatedEstimatedValueSpending.Designer.cs" />
+    <Compile Remove="Migrations\20200820163624_AddObjectIdToProcurementPlanDocument.cs" />
+    <Compile Remove="Migrations\20200820163624_AddObjectIdToProcurementPlanDocument.Designer.cs" />
+    <Compile Remove="Migrations\20200822103336_AddedTransactionIdToVendorProfileTable.cs" />
+    <Compile Remove="Migrations\20200822103336_AddedTransactionIdToVendorProfileTable.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.4">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.4">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="3.1.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\eprocurement-tool.Domain\eprocurement-tool.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
