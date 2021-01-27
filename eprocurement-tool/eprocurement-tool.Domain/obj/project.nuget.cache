@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jpWiK2K98ohIldLG81J+7Xl7vkHxBmKOUfPtGT5kSVXcgk8f9fnoqnrB+CAKk+KR8FE4b08TUOuM1zn50ZkZAQ==",
+  "dgSpecHash": "bRaonageL5F8qm2kDnYYMNRuH/otDdqwpPp07/9ws0l5fQAeG7Xi4eu/8ZFH7uqa0d2lUSLybCpODabYtPOfwQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\FoliviJ\\Source\\Repos\\E-Procurement-API\\eprocurement-tool\\eprocurement-tool.Domain\\eprocurement-tool.Domain.csproj",
+  "projectFilePath": "C:\\Users\\FoliviJ\\source\\repos\\E-Procurement-API\\eprocurement-tool\\eprocurement-tool.Domain\\eprocurement-tool.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

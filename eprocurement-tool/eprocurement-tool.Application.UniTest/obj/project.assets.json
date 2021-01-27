@@ -7647,11 +7647,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\FoliviJ\\Source\\Repos\\E-Procurement-API\\eprocurement-tool\\eprocurement-tool.Application.UniTest\\eprocurement-tool.Application.UniTest.csproj",
+      "projectUniqueName": "C:\\Users\\FoliviJ\\source\\repos\\E-Procurement-API\\eprocurement-tool\\eprocurement-tool.Application.UniTest\\eprocurement-tool.Application.UniTest.csproj",
       "projectName": "eprocurement-tool.Application.UniTest",
-      "projectPath": "C:\\Users\\FoliviJ\\Source\\Repos\\E-Procurement-API\\eprocurement-tool\\eprocurement-tool.Application.UniTest\\eprocurement-tool.Application.UniTest.csproj",
+      "projectPath": "C:\\Users\\FoliviJ\\source\\repos\\E-Procurement-API\\eprocurement-tool\\eprocurement-tool.Application.UniTest\\eprocurement-tool.Application.UniTest.csproj",
       "packagesPath": "C:\\Users\\FoliviJ\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\FoliviJ\\Source\\Repos\\E-Procurement-API\\eprocurement-tool\\eprocurement-tool.Application.UniTest\\obj\\",
+      "outputPath": "C:\\Users\\FoliviJ\\source\\repos\\E-Procurement-API\\eprocurement-tool\\eprocurement-tool.Application.UniTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\FoliviJ\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7668,8 +7668,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\FoliviJ\\Source\\Repos\\E-Procurement-API\\eprocurement-tool\\eprocurement-tool.Application\\eprocurement-tool.Application.csproj": {
-              "projectPath": "C:\\Users\\FoliviJ\\Source\\Repos\\E-Procurement-API\\eprocurement-tool\\eprocurement-tool.Application\\eprocurement-tool.Application.csproj"
+            "C:\\Users\\FoliviJ\\source\\repos\\E-Procurement-API\\eprocurement-tool\\eprocurement-tool.Application\\eprocurement-tool.Application.csproj": {
+              "projectPath": "C:\\Users\\FoliviJ\\source\\repos\\E-Procurement-API\\eprocurement-tool\\eprocurement-tool.Application\\eprocurement-tool.Application.csproj"
             }
           }
         }

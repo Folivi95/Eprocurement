@@ -9872,11 +9872,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\FoliviJ\\Source\\Repos\\E-Procurement-API\\eprocurement-tool\\eprocurement-tool.WebAPI\\eprocurement-tool.WebAPI.csproj",
+      "projectUniqueName": "C:\\Users\\FoliviJ\\source\\repos\\E-Procurement-API\\eprocurement-tool\\eprocurement-tool.WebAPI\\eprocurement-tool.WebAPI.csproj",
       "projectName": "eprocurement-tool.WebAPI",
-      "projectPath": "C:\\Users\\FoliviJ\\Source\\Repos\\E-Procurement-API\\eprocurement-tool\\eprocurement-tool.WebAPI\\eprocurement-tool.WebAPI.csproj",
+      "projectPath": "C:\\Users\\FoliviJ\\source\\repos\\E-Procurement-API\\eprocurement-tool\\eprocurement-tool.WebAPI\\eprocurement-tool.WebAPI.csproj",
       "packagesPath": "C:\\Users\\FoliviJ\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\FoliviJ\\Source\\Repos\\E-Procurement-API\\eprocurement-tool\\eprocurement-tool.WebAPI\\obj\\",
+      "outputPath": "C:\\Users\\FoliviJ\\source\\repos\\E-Procurement-API\\eprocurement-tool\\eprocurement-tool.WebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\FoliviJ\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -9893,11 +9893,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\FoliviJ\\Source\\Repos\\E-Procurement-API\\eprocurement-tool\\eprocurement-tool.Infrastructure.Data\\eprocurement-tool.Infrastructure.Data.csproj": {
-              "projectPath": "C:\\Users\\FoliviJ\\Source\\Repos\\E-Procurement-API\\eprocurement-tool\\eprocurement-tool.Infrastructure.Data\\eprocurement-tool.Infrastructure.Data.csproj"
+            "C:\\Users\\FoliviJ\\source\\repos\\E-Procurement-API\\eprocurement-tool\\eprocurement-tool.Infrastructure.Data\\eprocurement-tool.Infrastructure.Data.csproj": {
+              "projectPath": "C:\\Users\\FoliviJ\\source\\repos\\E-Procurement-API\\eprocurement-tool\\eprocurement-tool.Infrastructure.Data\\eprocurement-tool.Infrastructure.Data.csproj"
             },
-            "C:\\Users\\FoliviJ\\Source\\Repos\\E-Procurement-API\\eprocurement-tool\\eprocurement-tool.Infrastructure.IoC\\eprocurement-tool.Infrastructure.IoC.csproj": {
-              "projectPath": "C:\\Users\\FoliviJ\\Source\\Repos\\E-Procurement-API\\eprocurement-tool\\eprocurement-tool.Infrastructure.IoC\\eprocurement-tool.Infrastructure.IoC.csproj"
+            "C:\\Users\\FoliviJ\\source\\repos\\E-Procurement-API\\eprocurement-tool\\eprocurement-tool.Infrastructure.IoC\\eprocurement-tool.Infrastructure.IoC.csproj": {
+              "projectPath": "C:\\Users\\FoliviJ\\source\\repos\\E-Procurement-API\\eprocurement-tool\\eprocurement-tool.Infrastructure.IoC\\eprocurement-tool.Infrastructure.IoC.csproj"
             }
           }
         }

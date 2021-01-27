@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lydeBnsdlzXwXx2+vikAvC/u9DWvI+yHWuogOaMx3rSc05p9RX5YjfPDi14OuIEh9tWxSzOCZxMVaSuzNL4/Gw==",
+  "dgSpecHash": "gtYyeYGZWjqR4XA3MRjYqh847MbnVSh9iCPX/VvaDwMpV1eXgjZ6qdd3s6VOnFh46hBoZGdp8cD6x9ih9Cv7aw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\FoliviJ\\Source\\Repos\\E-Procurement-API\\eprocurement-tool\\eprocurement-tool.Application\\eprocurement-tool.Application.csproj",
+  "projectFilePath": "C:\\Users\\FoliviJ\\source\\repos\\E-Procurement-API\\eprocurement-tool\\eprocurement-tool.Application\\eprocurement-tool.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\FoliviJ\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\FoliviJ\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\7.0.0\\automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",
